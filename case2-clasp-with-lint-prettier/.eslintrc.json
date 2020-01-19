@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:es5/no-es2015"
+  ],
+  "plugins": [
+    "googleappsscript",
+    "es5"
+  ],
+  "env": {
+    "googleappsscript/googleappsscript": true
+  },
+  "globals": {
+    "getDayFormat": false,
+    "SheetService": false
+  },
+  "rules": {
+    "no-redeclare": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "printWidth": 100
+      }
+    ]
+  }
+}
