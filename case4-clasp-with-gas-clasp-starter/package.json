@@ -1,0 +1,45 @@
+{
+  "name": "case4-clasp-with-gas-clasp-starter",
+  "description": "clasp を最大限に活用するバージョンです。",
+  "scripts": {
+    "lint": "eslint --fix src/**/*.ts",
+    "test": "jest",
+    "build": "npm run lint && npm run test && rimraf dist && webpack && cpx src/appsscript.json dist && cpx \"src/**/*.html\" dist",
+    "push": "npm run build && clasp push"
+  },
+  "author": "howdy39",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "1.0.9",
+    "@types/jest": "24.9.0",
+    "@typescript-eslint/eslint-plugin": "2.16.0",
+    "@typescript-eslint/parser": "2.16.0",
+    "cpx": "1.5.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "gas-webpack-plugin": "1.0.2",
+    "jest": "24.9.0",
+    "prettier": "1.19.1",
+    "rimraf": "3.0.0",
+    "ts-jest": "24.3.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.5",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(src/.+(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
