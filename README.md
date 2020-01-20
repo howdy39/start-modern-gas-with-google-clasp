@@ -31,7 +31,7 @@ clasp を最大限に活用するバージョンです。
 
 
 ## case5-clasp-with-gas-clasp-starter-use-my-project
-case3-clasp-with-gas-clasp-starter に加えて、自分で作ったGCPプロジェクトを使用する形に切り替えます。
+case4-clasp-with-gas-clasp-starter に加えて、自分で作ったGCPプロジェクトを使用する形に切り替えたものです。
 
 ローカル環境からスクリプトの実行が行えるようになるため、スクリプトエディタを開くことがほぼなくなります。
 

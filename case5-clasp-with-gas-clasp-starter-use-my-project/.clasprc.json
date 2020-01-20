@@ -1,0 +1,15 @@
+{
+  "token": {
+    "access_token": "<access_token>",
+    "refresh_token": "<refresh_token>",
+    "scope": "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/script.webapp.deploy",
+    "token_type": "Bearer",
+    "expiry_date": 1579534668467
+  },
+  "oauth2ClientSettings": {
+    "clientId": "754157286387-65et2t2q1qmas5gtjfhg92fbgb4hhvgb.apps.googleusercontent.com",
+    "clientSecret": "<clientSecret>",
+    "redirectUri": "urn:ietf:wg:oauth:2.0:oob"
+  },
+  "isLocalCreds": true
+}

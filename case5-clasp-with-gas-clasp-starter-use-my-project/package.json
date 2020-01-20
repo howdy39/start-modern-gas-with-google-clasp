@@ -1,6 +1,6 @@
 {
   "name": "case5-clasp-with-gas-clasp-starter-use-my-project",
-  "description": "case5-clasp-with-gas-clasp-starter-use-my-project",
+  "description": "case4-clasp-with-gas-clasp-starter に加えて、自分で作ったGCPプロジェクトを使用する形に切り替えたバージョンです。",
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
     "test": "jest",
