@@ -37,6 +37,11 @@ case4-clasp-with-gas-clasp-starter に加えて、自分で作ったGCPプロジ
 
 
 ## case6-clasp-with-gas-clasp-starter-use-circle-ci
+case4-clasp-with-gas-clasp-starter を CircleCI を使って PR マージ時にデプロイするようにしたバージョンです。
+
+CircleCI を使うため別リポジトリに作成しています。
+
+[howdy39/case6-clasp-with-gas-clasp-starter-use-circle-ci](https://github.com/howdy39/case6-clasp-with-gas-clasp-starter-use-circle-ci)
 
 
 ## case7-clasp-with-gas-clasp-starter-use-github-action
