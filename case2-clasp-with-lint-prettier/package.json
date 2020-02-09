@@ -1,7 +1,7 @@
 {
   "name": "case2-clasp-with-gas-clasp-starter",
   "version": "1.0.0",
-  "description": "clasp をより活用するバージョンです。きれいなコードを残すのが主目的です。",
+  "description": "case2-clasp-with-gas-clasp-starter",
   "scripts": {
     "lint": "eslint --fix src/**/*.js",
     "push": "npm run lint && clasp push"
@@ -15,5 +15,8 @@
     "eslint-plugin-googleappsscript": "^1.0.3",
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.10"
   }
 }
